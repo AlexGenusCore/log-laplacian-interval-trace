@@ -1,0 +1,56 @@
+# referee_p0check.py re-run on the author's laptop, 2026-10-31T06:35:56Z
+# Python 3.12.13 numpy 2.5.4
+L=1.0 rmin=1e-100 rho=1.25 n0=100 N_half=1115
+e0: mu=-0.68791864  2L*A^2(fit)=1.0013405  beta/alpha+mu/2+gamma=-0.0013  raw 2L u^2 ell=1.00240
+o0: mu=1.73344102  2L*A^2(fit)=1.0030495  beta/alpha+mu/2+gamma=-0.0012  raw 2L u^2 ell=1.00965
+e1: mu=2.72870312  2L*A^2(fit)=1.0047206  beta/alpha+mu/2+gamma=-0.0011  raw 2L u^2 ell=1.01362
+o1: mu=3.41451057  2L*A^2(fit)=1.0067649  beta/alpha+mu/2+gamma=-0.0011  raw 2L u^2 ell=1.01728
+e2: mu=3.91272827  2L*A^2(fit)=1.0087783  beta/alpha+mu/2+gamma=-0.0011  raw 2L u^2 ell=1.02047
+o2: mu=4.31952416  2L*A^2(fit)=1.0110996  beta/alpha+mu/2+gamma=-0.0011  raw 2L u^2 ell=1.02377
+# peak RSS 116404 kB
+# wall 2 s
+L=1.0 rmin=1e-100 rho=1.12 n0=200 N_half=2197
+e0: mu=-0.68797939  2L*A^2(fit)=1.0003701  beta/alpha+mu/2+gamma=+0.0003  raw 2L u^2 ell=1.00143
+o0: mu=1.73306613  2L*A^2(fit)=1.0008545  beta/alpha+mu/2+gamma=+0.0003  raw 2L u^2 ell=1.00743
+e1: mu=2.72777533  2L*A^2(fit)=1.0013352  beta/alpha+mu/2+gamma=+0.0004  raw 2L u^2 ell=1.01020
+o1: mu=3.41278293  2L*A^2(fit)=1.0019287  beta/alpha+mu/2+gamma=+0.0004  raw 2L u^2 ell=1.01238
+e2: mu=3.90999639  2L*A^2(fit)=1.0025202  beta/alpha+mu/2+gamma=+0.0004  raw 2L u^2 ell=1.01413
+o2: mu=4.31557658  2L*A^2(fit)=1.0032070  beta/alpha+mu/2+gamma=+0.0004  raw 2L u^2 ell=1.01576
+# peak RSS 343560 kB
+# wall 11 s
+L=1.0 rmin=1e-100 rho=1.12 n0=400 N_half=2391
+e0: mu=-0.68799449  2L*A^2(fit)=1.0002672  beta/alpha+mu/2+gamma=+0.0003  raw 2L u^2 ell=1.00132
+o0: mu=1.73296507  2L*A^2(fit)=1.0005118  beta/alpha+mu/2+gamma=+0.0003  raw 2L u^2 ell=1.00708
+e1: mu=2.72751854  2L*A^2(fit)=1.0007296  beta/alpha+mu/2+gamma=+0.0004  raw 2L u^2 ell=1.00959
+o1: mu=3.41229789  2L*A^2(fit)=1.0009840  beta/alpha+mu/2+gamma=+0.0004  raw 2L u^2 ell=1.01142
+e2: mu=3.90922135  2L*A^2(fit)=1.0012354  beta/alpha+mu/2+gamma=+0.0004  raw 2L u^2 ell=1.01282
+o2: mu=4.31444764  2L*A^2(fit)=1.0015230  beta/alpha+mu/2+gamma=+0.0004  raw 2L u^2 ell=1.01406
+# peak RSS 399272 kB
+# wall 14 s
+L=1.0 rmin=1e-60 rho=1.06 n0=200 N_half=2513
+e0: mu=-0.68798491  2L*A^2(fit)=1.0001598  beta/alpha+mu/2+gamma=+0.0011  raw 2L u^2 ell=1.00196
+o0: mu=1.73305069  2L*A^2(fit)=1.0004556  beta/alpha+mu/2+gamma=+0.0013  raw 2L u^2 ell=1.01176
+e1: mu=2.72775344  2L*A^2(fit)=1.0007764  beta/alpha+mu/2+gamma=+0.0014  raw 2L u^2 ell=1.01604
+o1: mu=3.41275476  2L*A^2(fit)=1.0011844  beta/alpha+mu/2+gamma=+0.0014  raw 2L u^2 ell=1.01920
+e2: mu=3.90996649  2L*A^2(fit)=1.0015972  beta/alpha+mu/2+gamma=+0.0015  raw 2L u^2 ell=1.02162
+o2: mu=4.31554545  2L*A^2(fit)=1.0020879  beta/alpha+mu/2+gamma=+0.0015  raw 2L u^2 ell=1.02376
+# peak RSS 437276 kB
+# wall 14 s
+L=0.5 rmin=1e-100 rho=1.12 n0=200 N_half=2191
+e0: mu=0.69831494  2L*A^2(fit)=1.0003701  beta/alpha+mu/2+gamma=+0.0003  raw 2L u^2 ell=1.00458
+o0: mu=3.11936033  2L*A^2(fit)=1.0008542  beta/alpha+mu/2+gamma=+0.0004  raw 2L u^2 ell=1.01061
+e1: mu=4.11406930  2L*A^2(fit)=1.0013345  beta/alpha+mu/2+gamma=+0.0004  raw 2L u^2 ell=1.01340
+o1: mu=4.79907655  2L*A^2(fit)=1.0019274  beta/alpha+mu/2+gamma=+0.0005  raw 2L u^2 ell=1.01559
+e2: mu=5.29628958  2L*A^2(fit)=1.0025184  beta/alpha+mu/2+gamma=+0.0005  raw 2L u^2 ell=1.01735
+o2: mu=5.70186923  2L*A^2(fit)=1.0032047  beta/alpha+mu/2+gamma=+0.0005  raw 2L u^2 ell=1.01899
+# peak RSS 341868 kB
+# wall 9 s
+L=2.0 rmin=1e-100 rho=1.12 n0=200 N_half=2203
+e0: mu=-2.07427373  2L*A^2(fit)=1.0003702  beta/alpha+mu/2+gamma=+0.0002  raw 2L u^2 ell=0.99830
+o0: mu=0.34677193  2L*A^2(fit)=1.0008550  beta/alpha+mu/2+gamma=+0.0003  raw 2L u^2 ell=1.00426
+e1: mu=1.34148137  2L*A^2(fit)=1.0013361  beta/alpha+mu/2+gamma=+0.0003  raw 2L u^2 ell=1.00702
+o1: mu=2.02648932  2L*A^2(fit)=1.0019302  beta/alpha+mu/2+gamma=+0.0003  raw 2L u^2 ell=1.00918
+e2: mu=2.52370321  2L*A^2(fit)=1.0025222  beta/alpha+mu/2+gamma=+0.0004  raw 2L u^2 ell=1.01092
+o2: mu=2.92928392  2L*A^2(fit)=1.0032098  beta/alpha+mu/2+gamma=+0.0004  raw 2L u^2 ell=1.01255
+# peak RSS 345400 kB
+# wall 8 s

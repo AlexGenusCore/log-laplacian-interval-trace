@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below. It is unrefereed, was produced with substantial AI assistance, and has been reviewed only by AI systems (see README.md). Please also cite bramble_trace (rStation riemann_hypothesis paper 67) and the Mathia research notes for the results they obtained first."
+title: "A boundary trace identity for the logarithmic Laplacian on an interval, and simplicity of its Dirichlet spectrum"
+abstract: "For the logarithmic Laplacian (Fourier symbol 2 log|xi|) on a bounded interval I with Dirichlet exterior condition: every eigenfunction u has a logarithmic boundary trace, u = A_+-(u) l^(-1/2) + O(l^(-1)) with l = log(1/dist(x, boundary)) and an explicit constant; A_+(u)^2 = A_-(u)^2 = ||u||^2/|I|; and every Dirichlet eigenvalue is simple. Existence of the trace, the trace identity and simplicity were obtained earlier in an unrefereed rStation manuscript (bramble_trace, paper 67, 27 October 2026), and existence of the trace in the Mathia research notes. What differs here is a self-contained proof of the remainder bound with an explicit constant, a Pohozaev-type proof of the trace identity and of simplicity through an exact one-endpoint dilation identity, and identities for pairs of eigenfunctions. Includes the numerical supplement. Unrefereed; AI-assisted."
+type: software
+authors:
+  - given-names: "Johann Alexander"
+    family-names: "Botha"
+    affiliation: "GenusCore"
+    email: "info@genuscore.com"
+version: "1.0.0"
+date-released: "2026-10-31"
+license:
+  - CC-BY-4.0
+  - MIT
+repository-code: "https://github.com/AlexGenusCore/log-laplacian-interval-trace"
+keywords:
+  - logarithmic Laplacian
+  - boundary trace
+  - Pohozaev identity
+  - simplicity of eigenvalues
+  - Wiener-Hopf factorization
+preferred-citation:
+  type: report
+  title: "A boundary trace identity for the logarithmic Laplacian on an interval, and simplicity of its Dirichlet spectrum"
+  authors:
+    - given-names: "Johann Alexander"
+      family-names: "Botha"
+      affiliation: "GenusCore"
+      email: "info@genuscore.com"
+  institution:
+    name: "GenusCore"
+  year: 2026
+  month: 10
+  date-released: "2026-10-31"
+  version: "1.0.0"
+  url: "https://github.com/AlexGenusCore/log-laplacian-interval-trace"
+  notes: "Unrefereed preprint, version 1.0.0."

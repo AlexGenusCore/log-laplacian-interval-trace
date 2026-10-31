@@ -1,0 +1,49 @@
+% Table 1: eigenvalues of L_Delta on (-1,1)
+\begin{tabular}{rlllr}\toprule $k$ & sector & $\mu_k$ (this work) & HJSS & $\mu_k-\mu_k^{\rm HJSS}$\\\midrule
+0 & e0 & $-0.68800259$ & $-0.6878$ & $-2.0e-04$\\
+1 & o0 & $1.73292027$ & $1.7331$ & $-1.8e-04$\\
+2 & e1 & $2.72741038$ & $2.7275$ & $-9.0e-05$\\
+3 & o1 & $3.41209699$ & $3.4122$ & $-1.0e-04$\\
+4 & e2 & $3.90890346$ & $3.9091$ & $-2.0e-04$\\
+5 & o2 & $4.31398631$ & $4.3142$ & $-2.1e-04$\\
+\bottomrule\end{tabular}
+% Table 2: scaling check  mu_k(L) + 2 log L - mu_k(1)  (same absolute mesh: h0=0.01, rho=1.25, r_min=1e-60)
+\begin{tabular}{rrrr}\toprule $k$ & $L=0.5$ & $L=2$ & $L=5$\\\midrule
+0 & $+1.8e-08$ & $-5.2e-09$ & $-7.3e-09$\\
+1 & $+1.3e-07$ & $-1.8e-08$ & $-2.2e-08$\\
+2 & $+5.5e-07$ & $-5.6e-08$ & $-6.5e-08$\\
+3 & $+1.7e-06$ & $-1.5e-07$ & $-1.7e-07$\\
+4 & $+4.0e-06$ & $-3.5e-07$ & $-3.8e-07$\\
+5 & $+8.1e-06$ & $-6.9e-07$ & $-7.6e-07$\\
+\bottomrule\end{tabular}
+% Table 3: 2 L A^2 from the edge profile (fit F1, finest mesh) with mesh/fit error bar
+\begin{tabular}{lrrr}\toprule state & $L=0.5$ & $L=1$ & $L=2$\\\midrule
+e0 & $1.0000000\pm1e-06$ & $1.0000001\pm8e-07$ & $1.0000001\pm9e-07$\\
+o0 & $1.0000001\pm2e-06$ & $1.0000000\pm1e-06$ & $1.0000001\pm1e-06$\\
+e1 & $1.0000001\pm2e-06$ & $1.0000001\pm2e-06$ & $1.0000001\pm2e-06$\\
+o1 & $1.0000001\pm3e-06$ & $1.0000001\pm2e-06$ & $1.0000002\pm2e-06$\\
+e2 & $1.0000002\pm4e-06$ & $1.0000001\pm2e-06$ & $1.0000002\pm3e-06$\\
+o2 & $1.0000003\pm6e-06$ & $1.0000001\pm3e-06$ & $1.0000003\pm4e-06$\\
+\bottomrule\end{tabular}
+% Table 4: 2 L A^2 from the explicit formula of Thm 1(3); mean over q = 0.5, 1, 2 on the finest mesh;
+% error = half the q-spread + change from rho = 1.25 to 1.12
+\begin{tabular}{lrrr}\toprule state & $L=0.5$ & $L=1$ & $L=2$\\\midrule
+e0 & $1.0000001\pm3e-07$ & $1.0000001\pm2e-07$ & $1.0000001\pm5e-08$\\
+o0 & $1.0000003\pm6e-07$ & $1.0000002\pm4e-07$ & $1.0000002\pm3e-07$\\
+e1 & $1.0000003\pm8e-07$ & $1.0000002\pm6e-07$ & $1.0000002\pm5e-07$\\
+o1 & $1.0000004\pm1e-06$ & $1.0000003\pm7e-07$ & $1.0000003\pm7e-07$\\
+e2 & $1.0000005\pm1e-06$ & $1.0000003\pm8e-07$ & $1.0000004\pm9e-07$\\
+o2 & $1.0000006\pm1e-06$ & $1.0000003\pm9e-07$ & $1.0000005\pm1e-06$\\
+\bottomrule\end{tabular}
+% Table 5: mixed identity  L (lambda_e - lambda_o) Phi^\prime(0) - 1  (lambda = mu/2), no fitting
+\begin{tabular}{lrrr}\toprule pair & $L=0.5$ & $L=1$ & $L=2$\\\midrule
+e0o0 & $+8.7e-07$ & $+8.6e-07$ & $+8.6e-07$\\
+e0o1 & $+2.5e-06$ & $+2.5e-06$ & $+2.5e-06$\\
+e0o2 & $+3.8e-06$ & $+3.7e-06$ & $+3.8e-06$\\
+e1o0 & $+1.5e-07$ & $+1.5e-07$ & $+1.5e-07$\\
+e1o1 & $+8.4e-08$ & $+7.1e-08$ & $+8.4e-08$\\
+e1o2 & $+4.5e-07$ & $+3.8e-07$ & $+4.4e-07$\\
+e2o0 & $+7.5e-07$ & $+7.1e-07$ & $+7.4e-07$\\
+e2o1 & $+6.9e-08$ & $+4.0e-08$ & $+6.9e-08$\\
+e2o2 & $+8.9e-08$ & $+3.0e-08$ & $+8.9e-08$\\
+\bottomrule\end{tabular}

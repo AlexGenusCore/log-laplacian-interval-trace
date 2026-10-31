@@ -1,0 +1,13 @@
+The paper in this directory (main.tex, main.pdf, refs.bib, fig_edge.pdf) is
+licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Copyright (c) 2026 Johann Alexander Botha
+
+You may share and adapt the paper for any purpose, provided you give
+appropriate credit (J. A. Botha, GenusCore), link to the license, and
+indicate if changes were made.
+
+The code in this repository is licensed separately under the MIT License
+(see ../LICENSE).

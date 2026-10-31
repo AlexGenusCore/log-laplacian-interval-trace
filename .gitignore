@@ -1,0 +1,10 @@
+# LaTeX build files (paper/ only: supplement/ ships *.out and *.log files on purpose)
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+__pycache__/
+*.pyc
+.venv/
